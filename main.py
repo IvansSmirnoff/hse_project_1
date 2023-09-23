@@ -1,5 +1,8 @@
-print('hello, git! hellow git')
-print(2+2)
+import pandas as pd
 
+data = {
+    "key1": [1, 2, 3],
+    "key2": [1, 2, 3]
+}
 
-
+df = pd.DataFrame(data=data)
